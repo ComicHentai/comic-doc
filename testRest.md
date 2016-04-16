@@ -215,7 +215,7 @@ localhost:8080/user/index?_mode=debug&_auth=debug&data={"token":{"userInfoId":1}
       }
     }
 
-#### user/signUp
+#### user/register
 
 localhost:8080/user/signUp?_mode=debug&_auth=debug&data={"token":"token","deviceId":"deviceId","userInfo":{"coverTitle":"coverTitle","username":"username","password":"password","nickname":"nickname","sexy":"sexy","email":"email"}}
 
@@ -340,7 +340,7 @@ localhost:8080/user/deleted/batch?_mode=debug&_auth=debug&data={"token":"token",
       }
     }
 
-#### user/signIn
+#### user/login
 
 localhost:8080/user/signIn?_mode=debug&_auth=debug&data={"token":"token","deviceId":"deviceId","userInfo":{"username":"username", "password":"password"}}
 
